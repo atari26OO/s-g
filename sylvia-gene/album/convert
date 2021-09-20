@@ -1,0 +1,1 @@
+for file in *.jpg ; do convert -resize 100x "$file" "thumbs/${file/}" ; done
